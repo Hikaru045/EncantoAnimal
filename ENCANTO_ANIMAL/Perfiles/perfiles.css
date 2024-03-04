@@ -1,0 +1,25 @@
+
+
+.perfil {
+    display: flex;
+    margin-bottom: 20px; /* Espacio entre perfiles */
+}
+
+.perfil img {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.descripcion {
+    flex: 1; /* El texto ocupará todo el espacio disponible */
+}
+
+.PERFILES {
+text-align: center;
+
+
+
+
+
+}
