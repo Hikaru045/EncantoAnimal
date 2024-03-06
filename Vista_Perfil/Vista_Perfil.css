@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+  background-color: #FFE5B4;
+  align-items: center;
+}
+header {
+  display:grid;
+  text-align: center;
+  font-size: 35px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 130px;
+  background: #C999AF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+a  {
+  text-decoration: none;
+  color: black;
+  }
+.logo {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  width: 90px;
+  height: 90px;
+  }
+  
+.perfil {
+  position: absolute;
+  font-size: 40px;
+  top: 31px;
+  right: 100px;
+  width: 90px;
+  height: 110px;
+  margin-right: 5px;
+  }
+  .contenido {
+    align-items: first baseline;
+    text-align: center;
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+  }
+.imagen {
+  width: 400px;
+  height: 400px;
+  top: 312px;
+  left: 36px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.contenido {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 200px;
+}
+
+.animal-info {
+  text-align: left;
+}
+
+.imagen {
+  width: 500px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btn-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btnsi, .btnno {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btnsi {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.btnno {
+  background-color: #4CAF50;
+  color: white;
+}
+h3 {
+  margin-top: 70px;
+  text-align: center;
+}
